@@ -9,6 +9,10 @@ class HelloWorld {
 		System.out.println("Hello, World");
 		int a = 5, b = 5;
 		int sum = a + b;
-		System.out.println("Total sum is: " + sum);
+		int sub = a - b;
+		int mul = a * b;
+		System.out.println("Sum is: " + sum);
+		System.out.println("Subtraction is: " + sub);
+		System.out.println("Multiplication is: " + mul);
 	}
 }
